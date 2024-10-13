@@ -42,8 +42,16 @@ nav{
     justify-content: space-around;
 }
 
+nav button{
+    padding-right: 10px;
+}
+
+
+
+
+
 a{
-    color:white;;
+    color:rgb(116, 33, 33);;
 }
 
 header button{
@@ -51,6 +59,13 @@ header button{
     color: white;
     border: none;
     font-size: 18px;
+}
+
+@media (max-width: 450px){
+    header {
+        background-color: black;
+        width: 25rem;
+    }
 }
 
 /* HOME */
@@ -157,7 +172,7 @@ header button{
 
 .contactBoxesContainer{
     display: grid;
-    grid-template-columns: .5fr .5fr;
+    grid-template-columns: .4fr .4fr;
     gap: 20px;
 
 }
